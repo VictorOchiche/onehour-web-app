@@ -1,38 +1,344 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
   text-align: center;
-}
+  background-color:#ffffff;
+ 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.header{
+  position: absolute;
+width: 1440px;
+height: 98px;
+left: 0px;
+top: 0px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+background: rgba(236, 123, 21, 0.34);
 }
+.one{
+  position: absolute;
+width: 281px;
+height: 37px;
+left: 36px;
+top: 56px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+font-family: 'Allerta';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 40px;
+/* or 62% */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #EC7B15;
+
+mix-blend-mode: darken;
+}
+.sign{
+  position: absolute;
+width: 54px;
+height: 21px;
+left: 897px;
+top: 72px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #a39a9a;
+background: rgb(249, 210, 175)
+}
+.sign:hover{
+  color: blue;
+}
+.create{
+  position: absolute;
+  width: 146px;
+  height: 21px;
+  left: 1013px;
+  top: 72px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  
+  color: #FFFCFC;
+
+
+color: #a39a9a;
+background: rgb(249, 210, 175)
+}
+.create:hover{
+  color: blue;
+}
+.cart{
+  position: absolute;
+width: 34px;
+height: 15px;
+left: 1214px;
+top: 73px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 15px;
+/* identical to box height, or 83% */
+
+display: flex;
+align-items: center;
+
+color:  #a39a9a;
+background: rgb(249, 210, 175)
+}
+.cart:hover{
+  color: blue;
+text-decoration: none;
+}
+.get{
+  
+  position: absolute;
+  width: 416px;
+  height: 71px;
+  left: 58px;
+  top: 125px;
+  
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: -0.01em;
+  
+  color: #27214D;
+  
+
+}
+.createp{
+  position: absolute;
+width: 446px;
+height: 85px;
+left: 2px;
+top: 196px;
+
+font-family: 'Alata';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+/* or 100% */
+
+display: flex;
+align-items: flex-end;
+letter-spacing: -0.01em;
+
+color: #5D577E;
+
+}
+.createaccount{
+  /* Create an account */
+
+
+position: absolute;
+width: 348px;
+height: 56px;
+left: 553px;
+top: 281px;
+
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+
+color: #EC7B15;
+
+}
+.input1{
+  position: absolute;
+width: 650px;
+height: 56px;
+left: 401px;
+top: 356px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 30px;
+}
+.input2{
+  position: absolute;
+  width: 650px;
+  height: 50px;
+  left: 401px;
+  top: 455px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+.input3{
+  
+position: absolute;
+width: 650px;
+height: 50px;
+left: 401px;
+top: 540px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 30px;
+}
+.input4{
+  position: absolute;
+  width: 650px;
+  height: 50px;
+  left: 401px;
+  top: 629px;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+.input5{
+  position: absolute;
+  width: 650px;
+  height: 50px;
+  left: 401px;
+  top: 722px;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+.accept{
+  position: absolute;
+width: 282px;
+height: 14px;
+left: 603px;
+top: 815px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.submit{
+position: absolute;
+width: 391px;
+height: 94px;
+left: 535px;
+top: 840px;
+background: #F88B28;
+border-radius: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+color: #FFFFFF;
+
+}
+.submit:hover{
+  color: blue;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.footer{
+  position: absolute;
+width: 1440px;
+height: 77px;
+left: 0px;
+top: 947px;
+background: #EC7B15; 
+
+font-family: 'Allerta';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 40px;
+/* identical to box height, or 111% */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #5f4e4e;
+
+} 
+.footer1{
+  position: absolute;
+width: 153px;
+height: 40px;
+left: 23px;
+top: 16px;
+
+font-family: 'Allerta';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 40px;
+/* identical to box height, or 111% */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #251a1a;
+
+  background-color: #EC7B15;
+}
+.facebook{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 1000px;
+top: 16px;
+background-color: #EC7B15;
+}
+.instagram{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 1075px;
+top: 16px;
+
+}
+.twitter{
+position: absolute;
+width: 40px;
+height: 40px;
+left: 1150px;
+top: 16px;
+background-color: #11100f;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.success{
+  text-align: center;
+  background-color:#ffffff;
 }
